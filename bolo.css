@@ -1,0 +1,62 @@
+img{
+    width: 60vw;
+    height: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+body{
+    background-color: #949494;
+}
+
+.titulo{
+    text-align: center;
+    font-size: px;
+    border-radius: 5px;
+}
+.receita{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:initial;
+}
+
+@keyframes bolo_vir{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes descer {
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+
+
+img{
+    animation: bolo_vir 2s;
+}
+
+h1{
+    animation: descer 2s;
+}
+
+p, ul, ol{
+    animation: descer 2s;
+}
